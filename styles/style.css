@@ -798,3 +798,16 @@ span {
     font-size: 12px;
   }
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .footer ul {
+    font-size: 14px;
+  }
+
+  .footer .copyright {
+    font-size: 10px;
+  }
+}
