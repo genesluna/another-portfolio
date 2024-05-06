@@ -29,18 +29,13 @@
 }
 
 html {
-  height: 100vh;
   font-size: 62.5%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 .header {
@@ -334,7 +329,7 @@ span {
   flex-direction: column;
   color: white;
   position: relative;
-  background: url(https://res.cloudinary.com/dxylve8nt/image/upload/v1714853689/skills-bg-crop-tonedown_obwtpd.webp);
+  background: url(/assets/skills-bg.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
