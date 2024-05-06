@@ -95,7 +95,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 100svh;
   padding: 10rem 9% 10rem;
 }
 
@@ -398,7 +398,6 @@ span {
   align-items: center;
   flex-direction: column;
   color: white;
-  min-height: 100vh;
   position: relative;
   background-image: linear-gradient(#000000 1px, transparent 1px),
       linear-gradient(to right, #000000 1px, var(--bg-color) 1px);
